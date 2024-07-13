@@ -1,0 +1,16 @@
+  173  git checkout develop
+  174  touch develop_test.txt
+  175  git add develop_test.txt
+  176  git commit -m "New file created3"
+  177  nano develop_test.txt
+  178  git status
+  179  git add develop_test.txt
+  180  git commit -m "New changes"
+  181  git status
+  182  git checkout main
+  183  merge develop
+  184  git merge develop
+  185  git branch
+  186  git checkout develop
+  187  git merge main
+  188  git log
